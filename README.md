@@ -1,5 +1,6 @@
 ﻿# LMS-PROJECT
 # run front-end 
-cd front-end 
-npm install 
-npm run dev 
+##### cd front-end 
+##### npm install 
+##### npm run dev 
+
