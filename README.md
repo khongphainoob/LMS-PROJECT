@@ -4,3 +4,10 @@
 ##### npm install 
 ##### npm run dev 
 
+# run back-end
+
+##### cd back-end 
+##### npm start 
+
+
+
