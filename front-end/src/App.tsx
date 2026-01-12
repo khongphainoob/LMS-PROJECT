@@ -4,6 +4,7 @@ import Register from './pages/register';
 import Home from './pages/Home';
 import TeacherDashboard from './pages/dashboard/TeacherDashboard';
 import MyCourses from './pages/dashboard/MyClasses';
+import GradingPage from './pages/dashboard/Grading';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/teacher-dashboard" element={<TeacherDashboard />} />
         <Route path="/teacher/classes" element={<MyCourses />} />
+        <Route path="/teacher/grading" element={<GradingPage />} />
         
         {/* Route cho trang không tồn tại */}
         <Route path="*" element={<div className="p-10 text-center">404 - Page Not Found</div>} />
